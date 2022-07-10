@@ -130,6 +130,7 @@ body {
 .descripion-primary {
     display: flex;
     width: 270px;
+    
 }
 .descripion-title {
     font-weight: 700;
@@ -140,6 +141,9 @@ body {
     font-size: 14px;
     line-height: 1.71;
     height: fit-content;
+    padding-top:10px;
+    
+
 }
 .main-list {
     display: flex;
@@ -225,6 +229,8 @@ body {
     display: flex;
     list-style: none;
     justify-content: center;
+    padding-left:215px;
+    padding-right:215px;
 }
 .selection-image {
     display: flex;
