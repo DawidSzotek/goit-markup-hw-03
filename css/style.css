@@ -13,8 +13,8 @@
 }
 .container {
     width: 1200px;
-    padding:0 15px;
-    margin:0;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 body {
     font-family: "Raleway";
@@ -32,6 +32,8 @@ body {
     border-bottom: 1px solid #ececec;
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-nav {
     font-family: "Raleway";
@@ -45,7 +47,6 @@ body {
 .navigation h2 {
     font-size: 26px;
     padding-right: 90px;
-    margin-left: 215px;
 }
 .navigation a {
     text-decoration: none;
@@ -64,7 +65,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: var(--contacts-header-color);
-    padding-left:372px;
+    padding-left: 372px;
     gap: 50px;
 }
 .footer-navigation a {
@@ -85,17 +86,19 @@ body {
 .main-text-content {
     display: block;
     text-align: center;
-    padding: 200px 452px 280px 452px;
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 .main-page-header {
-    display: block;
+    display: flex;
     font-family: "Roboto";
     font-weight: 900;
     font-size: 44px;
     margin: auto;
-    text-align: center;
+    justify-content: space-around;
     text-transform: uppercase;
     color: #ffffff;
+    padding-bottom:30px;
 }
 .first-section {
     display: flex;
@@ -120,7 +123,6 @@ body {
     border-radius: 4px;
     border: none;
     padding: 10px 41px 10px 42px;
-    margin-top: 30px;
 }
 .descripion-primary {
     display: flex;
@@ -175,7 +177,6 @@ body {
 .footer-navigation address {
     color: #ffffff;
     font-size: 14px;
-    padding-left: 215px;
 }
 .navigation-name {
     font-family: "Raleway";
@@ -190,13 +191,13 @@ body {
     color: #ffffff;
 }
 .team-name {
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    text-align: center;
     font-family: "Roboto";
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 .pictures {
     border: 1px solid #eeeeee;
@@ -225,6 +226,7 @@ body {
     display: flex;
     list-style: none;
     justify-content: space-around;
+    gap: 30px;
 }
 .selection-image {
     display: flex;
@@ -237,7 +239,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     padding-top: 60px;
-    padding-left: 215px;
     padding-bottom: 20px;
 }
 .logo-nav {
@@ -258,6 +259,7 @@ body {
     font-family: "Roboto";
     color: #000000;
     font-weight: 500;
+    line-height: 1.6;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
@@ -267,6 +269,7 @@ body {
     margin: 0 4px;
     padding: 6px 22px;
 }
+.button-list button::shadow,
 .button-list button:focus,
 .button-list button:hover {
     background-color: var(--accent-color);
@@ -300,9 +303,9 @@ body {
     justify-content: space-around;
     background-color: #f5f4fa;
     padding-top: 94px;
-    padding-bottom:94px;
+    padding-bottom: 94px;
 }
 .address {
     font-style: normal;
-    padding-bottom:60px;
+    padding-bottom: 60px;
 }
