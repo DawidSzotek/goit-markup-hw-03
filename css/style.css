@@ -17,7 +17,6 @@
     margin: 0 auto;
 }
 body {
-    font-family: "Raleway";
     font-family: "Roboto", "Raleway", sans-serif;
     color: var(--main-text-color);
     margin: auto;
@@ -99,6 +98,8 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     padding-bottom:30px;
+    letter-spacing: 0.06em;
+    width: 696px;
 }
 .first-section {
     display: flex;
@@ -171,8 +172,10 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: var(--contacts-header-color);
+    display: inline-block;
     display: block;
-    padding-top: 9px;
+    margin-top:9px;
+    width: 231px;
 }
 .footer-navigation address {
     color: #ffffff;
@@ -262,23 +265,23 @@ body {
     line-height: 1.6;
     text-align: center;
     font-size: 16px;
-    cursor: pointer;
     background-color: #f5f4fa;
     border-radius: 4px;
     border: none;
     margin: 0 4px;
     padding: 6px 22px;
 }
-.button-list button::shadow,
 .button-list button:focus,
 .button-list button:hover {
     background-color: var(--accent-color);
     color: #ffffff;
+    cursor: pointer;
 }
 .product {
-    border: 1px solid #eeeeee;
     width: 370px;
-    height: 404px;
+    border-left: 1px solid #eeeeee;
+   border-right: 1px solid #eeeeee;
+   border-bottom: 1px solid #eeeeee;
 }
 .product-name {
     font-weight: 700;
@@ -308,4 +311,5 @@ body {
 .address {
     font-style: normal;
     padding-bottom: 60px;
+    color:var(--contacts-color);
 }
